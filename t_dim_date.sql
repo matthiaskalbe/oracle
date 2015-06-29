@@ -1,4 +1,4 @@
-CREATE TABLE astrsr.T_DIM_DATE(
+CREATE TABLE T_DIM_DATE(
 DateKey Integer NOT NULL,
 DateValue Date NOT NULL,
 Day Char(10 ),
@@ -15,7 +15,7 @@ Year Integer
 );
 commit;
 
-INSERT INTO astrsr.T_DIM_DATE
+INSERT INTO T_DIM_DATE
 SELECT
 to_number(to_char(CurrDate, 'YYYYMMDD')) as DateKey,
 CurrDate AS DateValue,
