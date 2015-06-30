@@ -1,17 +1,17 @@
 CREATE TABLE T_DIM_DATE(
-DateKey Integer NOT NULL,
-DateValue Date NOT NULL,
-Day Char(10 ),
-DayOfWeek Integer,
-DayOfMonth Integer,
-DayOfYear Integer,
-PreviousDay date,
-NextDay date,
-WeekOfYear Integer,
-Month Char(10 ),
-MonthOfYear Integer,
-QuarterOfYear Integer,
-Year Integer
+	DateKey Integer NOT NULL,
+	DateValue Date NOT NULL,
+	Day Char(10 ),
+	DayOfWeek Integer,
+	DayOfMonth Integer,
+	DayOfYear Integer,
+	PreviousDay date,
+	NextDay date,
+	WeekOfYear Integer,
+	Month Char(10 ),
+	MonthOfYear Integer,
+	QuarterOfYear Integer,
+	Year Integer
 );
 commit;
 
